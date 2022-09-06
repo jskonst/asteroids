@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "Module1": true,
+        "Module2":true,
+        "Module3":true
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "folders": [
+        // {
+        //     "name": "Module1",
+        //     "path": "Module1"
+        // },
+        // {
+        //     "name": "Module2",
+        //     "path": "Module2"
+        // },
+        {
+            "name": "Module3",
+            "path": "Module3"
+        },
+        // {
+        //     "name": "ModuleDemo",
+        //     "path": "ModuleDemo"
+        // },
+        {
+            "name": "Configs (Root)",
+            "path": "."
+        },
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/node_modules": true,
+            "**/build/**/*": true,
+        },
+        "editor.detectIndentation": false,
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.tslint": true
+        },
+        "liveServer.settings.multiRootWorkspaceName": "Module3"
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-azuretools.vscode-docker",
+            "mhutchie.git-graph",
+            "ms-vsliveshare.vsliveshare",
+            "ritwickdey.LiveServer",
+            "eamodio.gitlens"
+        ]
+    }
+}
